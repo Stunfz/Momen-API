@@ -3,7 +3,8 @@ Moment API - Доступ к нейросети LLAMA3 с нашим API клю�
 
 from MomentAPI import MomentAPI
 
-# Ваш API-ключ api = MomentAPI(api_key)
+# Ваш API-ключ 
+api = MomentAPI(api_key)
 api_key = "Ключ" 
 
 **Генерация текста**
