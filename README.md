@@ -1,7 +1,7 @@
 **Momen-API**
 Moment API - Доступ к нейросети LLAMA3 с нашим API ключом, без нагрузки своего железа
 
-это так себе описание. Сделай красивое описание для readme - вот код - from MomentAPI import MomentAPI
+from MomentAPI import MomentAPI
 
 # Ваш API-ключ api = MomentAPI(api_key)
 api_key = "Ключ" 
