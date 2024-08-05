@@ -8,6 +8,7 @@ api = MomentAPI(api_key)
 api_key = "Ключ" 
 
 **Генерация текста**
+
 text_response = api.generate_text("Привет") print(text_response)
 
 
