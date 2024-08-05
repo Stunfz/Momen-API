@@ -3,12 +3,11 @@ Moment API - Доступ к нейросети LLAMA3 с нашим API клю�
 
 это так себе описание. Сделай красивое описание для readme - вот код - from MomentAPI import MomentAPI
 
-api_key = "live:4Mf7M5vzQ5jwWYSXvrtp" # Ваш API-ключ api = MomentAPI(api_key)
+# Ваш API-ключ api = MomentAPI(api_key)
+<code>api_key = "Ключ" 
 
 **Генерация текста**
-text_response = api.generate_text("что") print(text_response)
-
-если надо
+text_response = api.generate_text("Привет") print(text_response)</code>
 
 
 **Moment API**
@@ -24,12 +23,12 @@ Moment API - это простой и удобный способ получит
 **Пример использования**
 <code>from MomentAPI import MomentAPI
 
-api_key = "live:4Mf7M5vzQ5jwWYSXvrtp"  # Ваш API-ключ
-api = MomentAPI(api_key)
+<code>api_key = "Ключ"  # Ваш API-ключ
+<code>api = MomentAPI(api_key)
 
 # Генерация текста
-text_response = api.generate_text("что")
-print(text_response)<code>
+<code>text_response = api.generate_text("Запрос")
+<code>print(text_response)/<code>
 
 **Как начать**
 Получите свой API-ключ в нашем телеграм боте.
